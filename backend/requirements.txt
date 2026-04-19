@@ -1,0 +1,33 @@
+# requirements.txt - Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Web Framework
+fastapi==0.110.0
+uvicorn==0.27.1
+
+# PostgreSQL Database Driver
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.27
+
+# Authentication
+passlib==1.7.4
+bcrypt==4.1.2
+python-jose==3.3.0
+python-multipart==0.0.9
+
+# AI & ML
+openai==1.12.0
+scikit-learn==1.4.1
+pandas==2.2.1
+numpy==1.26.4
+
+# Configuration
+python-dotenv==1.0.1
+pydantic-settings==2.2.1
+
+# Firebase (Phase 5)
+firebase-admin==6.4.0
+
+# Utilities
+httpx==0.27.0
+alembic==1.13.1
